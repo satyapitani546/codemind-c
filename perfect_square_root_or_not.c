@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int num,T,i=1,d,S=0;
+    int num,T,i=1,d,s=0;
     scanf("%d",&num);
     T=num;
     while(i<=num/2)
     {
-        S=i*i;
-        if(S==T)
+        s=i*i;
+        if(s==T)
         {
             d=1;
         }
@@ -18,10 +18,5 @@ int main()
         printf("True");
     }
     else
-    {
-        printf("False");
-    }
-    
-    return 0;
-    
+    printf("False");
 }
